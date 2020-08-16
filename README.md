@@ -38,7 +38,7 @@ gdb a.out
     The factorial of 4 is 1[Inferior 1 (process 14193) exited normally]
     ```
     oops! Clearly the answer is wrong!!
-    Now, as a very inexperienced programmer, one would try to print n at every iteration to see where the program might have gone wrong resulting in a very ugly looking code and also adding unnecessary headache of having to track the line number of each print statement one had used for debugging their codes. 
+    Now, as a very inexperienced programmer, one would try to print at every iteration to see where the program might have gone wrong resulting in a very ugly looking code and also adding the unnecessary headache of having to track the line number of each print statement one had used for debugging their codes. 
     Now, let's see how gdb simplifies things for us...
 
     2. creating breakpoints: 
