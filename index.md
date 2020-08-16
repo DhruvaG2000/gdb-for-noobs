@@ -3,14 +3,17 @@ most of us tend to have bugs in our code. We could use printing commands to test
 
 ## Walkthrough
 1. for compiling your code to make it suitable for debugging using gdb:
+
 ```sh 
  g++ -g "buggy_factorial.cpp" 
 ```
 2. launching the gdb shell:
+
 ```sh
 gdb a.out
 ```
 3. basic commands we will be needing: 
+
     * ``(gdb) run`` : runs the program.
     * ``(gdb) break file1.c:6`` : Breakpoints can be used to stop the program run in the middle, at a designated point (we will see how its useful in the following example). 
     * ``(gdb) break myfunc``: creates breakpoint at ``myfunc`` **remember to use myfunc without the ()**
@@ -24,6 +27,7 @@ gdb a.out
 
 4. explanation with example: 
     1. First, let's just run the code.. 
+    
     command: 
     ```
     run
@@ -40,6 +44,7 @@ gdb a.out
     Now, let's see how gdb simplifies things for us...
 
     2. creating breakpoints: 
+    
     since my factorial function is most probably messing up, I will add the breakpoint to it. 
     command:
     ```
@@ -49,7 +54,7 @@ gdb a.out
     ```
     Breakpoint 1 at 0x555555554993: file buggy_factorial.cpp, line 5.
     ```
-    now lets run it again... using ```run``` 
+    now lets run it again... using ``run`` 
     output: 
     ```
     Starting program: /home/dhruva/Documents/studies/maths/gdb-for-noobs/a.out 
