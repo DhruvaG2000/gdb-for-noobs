@@ -3,7 +3,7 @@ using namespace std;
 
 double factorial(double n){
   double res=1;
-  while(n<=1){  //<-- trust me, we all make such silly mistakes!
+  while(n>=1){  //<-- trust me, we all make such silly mistakes!
     res*=n;
     n--;
   }
