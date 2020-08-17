@@ -89,6 +89,7 @@ gdb a.out
 
 Thus using GDB we learned to debug a very basic code in c++. You can also try the other commands listed on top as per your own convenience and requirements.
 
+Visit the [io page](https://dhruvag2000.github.io/gdb-for-noobs/)
 sources:
 *  [1](https://www.cs.umd.edu/~srhuang/teaching/cmsc212/gdb-tutorial-handout.pdf)
 *  [2](http://www.math.bas.bg/~nkirov/2005/netb151/debugging-with-gdb.html)
