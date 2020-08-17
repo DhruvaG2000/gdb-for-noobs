@@ -77,8 +77,10 @@ gdb a.out
     OK! So now I go back ad make changes in my while loop condition to
     ``while(n>=1)`` 
 
-    4. Let's see if the issue is fixed!
+    Let's see if the issue is fixed!
+    
     Press `q` and then `y` to exit the gdb, and again compile your new program: 
+    
     * ```g++ -g factorial.cpp -o fact```
     * ```gdb fact``` 
     * ``run``
