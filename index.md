@@ -18,7 +18,7 @@ gdb a.out
     * ``(gdb) break file1.c:6`` : Breakpoints can be used to stop the program run in the middle, at a designated point (we will see how its useful in the following example). 
     * ``(gdb) break myfunc``: creates breakpoint at ``myfunc`` **remember to use myfunc without the ()**
     * ``(gdb) step`` or ``(gdb) s`` : execute just the next line of code.
-    * ``(gdb) print (gdb) `` or ``(gdb) p (gdb) `` :  prints the value of the variable.
+    * ``(gdb) print my_var `` or ``(gdb) p my_var`` :  prints the value of the variable.
     * ``(gdb) watch myvar``: whenever myvar’s value is modified, the program will interrupt and print out the old and new values. 
     trivial one's below...
     * ``finish `` : runs until the current function is finished.
